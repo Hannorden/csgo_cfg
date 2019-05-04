@@ -1,0 +1,1 @@
+-language customtext -novid -nojoy -d3d9ex +mat_queue_mode 2 +exec autoexec
