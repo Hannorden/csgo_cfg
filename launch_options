@@ -1,1 +1,4 @@
--language customtext -novid -nojoy -d3d9ex +mat_queue_mode 2 +exec autoexec
+-language english -novid -nojoy -high -d3d9ex +mat_queue_mode 2 +exec autoexec +fps_max 0 -cl_show_team_equipment 1 +cl_interp 0 +cl_interp_ratio 1 +rate 1000000
+
+"+mat_queue_mode 2" may increase your fps, but can also make it fluctuate. Use with caution
+"-d3d9ex" is now on by default in CS:GO and is therefore superfluous. I have kept it only as a reminder of the good ol' days
